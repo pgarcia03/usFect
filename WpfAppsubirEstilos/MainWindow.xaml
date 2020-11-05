@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:WpfAppsubirEstilos"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#000" Opacity="0.4">
+        <Label Content="" HorizontalAlignment="Center" Name="lblprogress" Margin="20,10,494,0" VerticalAlignment="Top" Width="278" Foreground="White"/>
+        <ProgressBar Name="progressBar" HorizontalAlignment="Left" Height="18" Margin="20,41,0,0" VerticalAlignment="Top" Width="750"/>
+
+        <Label Content="" HorizontalAlignment="Center" Name="lblprogress1" Margin="20,62,494,0" VerticalAlignment="Top" Width="278" Foreground="White"/>
+        <ProgressBar Name="progressBar1" HorizontalAlignment="Left" Height="18" Margin="20,85,0,0" VerticalAlignment="Top" Width="750"/>
+
+        <Button Content="CARGAR ARCHIVOS SELECCIONE DIRECTORIO"  HorizontalAlignment="Center" VerticalAlignment="Center" Width="265" Click="Button_Click" Height="76"/>
+
     </Grid>
 </Window>

@@ -5,16 +5,27 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppsubirEstilos", "WpfAppsubirEstilos\WpfAppsubirEstilos.csproj", "{CFA01E1F-4FED-4A53-872A-4D5DBDE09ABE}"
 EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "EspIntall", "EspIntall\EspIntall.aiproj", "{4E65CDF4-FA63-466B-8104-5EF38CC7AACA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFA01E1F-4FED-4A53-872A-4D5DBDE09ABE}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA01E1F-4FED-4A53-872A-4D5DBDE09ABE}.All|Any CPU.Build.0 = Release|Any CPU
 		{CFA01E1F-4FED-4A53-872A-4D5DBDE09ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CFA01E1F-4FED-4A53-872A-4D5DBDE09ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFA01E1F-4FED-4A53-872A-4D5DBDE09ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFA01E1F-4FED-4A53-872A-4D5DBDE09ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E65CDF4-FA63-466B-8104-5EF38CC7AACA}.All|Any CPU.ActiveCfg = DefaultBuild
+		{4E65CDF4-FA63-466B-8104-5EF38CC7AACA}.All|Any CPU.Build.0 = DefaultBuild
+		{4E65CDF4-FA63-466B-8104-5EF38CC7AACA}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{4E65CDF4-FA63-466B-8104-5EF38CC7AACA}.Debug|Any CPU.Build.0 = DefaultBuild
+		{4E65CDF4-FA63-466B-8104-5EF38CC7AACA}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{4E65CDF4-FA63-466B-8104-5EF38CC7AACA}.Release|Any CPU.Build.0 = DefaultBuild
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
